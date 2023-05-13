@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
+
+body {
+  background-color: hsl(212, 45%, 89%);
+}
+
+.card {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 14px;
+  padding: 12px;
+  text-align: center;
+  font-family: Inter;
+}
+
+.card > img {
+  width: 100%;
+  border-radius: 6px;
+}
+
+.card > p {
+  color: hsl(220, 15%, 55%);
+}
+
+.card > h3,
+.card > p {
+  margin: 20px 20px;
+}
+
+/* 
+## Colors
+
+- White: hsl(0, 0%, 100%)
+- Light gray: hsl(212, 45%, 89%)
+- Grayish blue: hsl(220, 15%, 55%)
+- Dark blue: hsl(218, 44%, 22%)
+*/
